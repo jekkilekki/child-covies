@@ -1,0 +1,160 @@
+/*
+ * Theme Name: 	Covies
+ * Theme URI: 	http://github.com/jekkilekki/child-covies
+ * Description: Child of the Activello Theme
+ * Author: 		Aaron Snowberger
+ * Author URI: 	http://www.aaronsnowberger.com
+ * Template: 	activello
+ * Version: 	1.0.0
+ * License: 	GNU v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:		two-columns, right-sidebar, responsive-layout
+ * Text Domain: covies
+ */
+
+ @import url( "../activello/style.css" );
+
+ /* Theme Customization starts here */
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.single-featured {
+	margin-bottom: 3em!important;
+}
+
+.navbar-brand {
+	font-size: 48px;
+	color: steelblue;
+}
+.tagline {
+	font-size: 20px;
+	font-family: "Lora", serif;
+}
+
+.widget h2 {
+	/*font-family: "Lora", serif;*/
+	color: steelblue;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.8;
+}
+.flexslider {
+	background: rgba(70,130,180,0.2);
+}
+
+a {
+	color: steelblue;
+}
+a:hover,
+a:focus,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #315b7d;
+}
+
+.single .entry-content a,
+.navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle,
+.nav a,
+.nav a:hover,
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.site-info a:hover,
+.site-info a:focus,
+article.post .post-categories a:hover, 
+.entry-title a:hover, 
+.entry-meta a:hover, 
+.entry-footer a:hover, 
+.read-more a:hover, 
+.flex-caption .post-categories a:hover, 
+.flex-caption .read-more a:hover, 
+.flex-caption h2:hover, 
+.comment-meta.commentmetadata a:hover, 
+.post-inner-content .cat-item a:hover {
+	color: steelblue;
+}
+.single .entry-content a:hover,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background: steelblue;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #393939;
+}
+h1, .h1 {
+	font-size: 32px;
+}
+h2, .h2 {
+	font-size: 28px;
+}
+h3, .h3 {
+	font-size: 24px;
+}
+h4, .h4 {
+	font-size: 20px;
+}
+h5, .h5 {
+	font-size: 16px;
+}
+h6, .h6 {
+	font-size: 14px;
+}
+
+.entry-title {
+	font-size: 36px;
+	padding: 0.5em 0;
+}
+
+.nav-search .social-icons {
+	margin-bottom: 0;
+}
+
+/* Logo */
+#logo hgroup {
+/*	margin-bottom: 1em;*/
+	width: 80%;
+	float: right;
+}
+.logo-icon {
+	float: left;
+	width: 20%;
+}
+
+#social li a span {
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #999;
+	font-family: 'Montserrat', sans-serif;
+}
+#social li a:before {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: top;
+    font-family: 'FontAwesome';
+/*    font-size: 1.4em; */
+    color: #696969;
+    -webkit-font-smoothing: antialiased;
+}
+#social li a[href*="gmail.com"]::before { content: '\f003'; }
+#social li a[href*="airbnb.com"]::before { content: '\f236'; }
+
+.copyright {
+	color: #aaa;
+}
+.copyright.contact { 
+	color: #696969;
+}
