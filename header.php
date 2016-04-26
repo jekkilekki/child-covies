@@ -78,7 +78,7 @@
 			<div id="logo" class="group">
 			<?php if( $logo ) : ?>
 				<span class="logo-icon">
-                        <?php echo wp_get_attachment_image($logo, 'thumb'); ?>
+                        <?php echo wp_get_attachment_image($logo, 'medium'); ?>
 				</span><!-- end of .logo-icon -->
 			<?php endif; ?>
 				<hgroup class="group">
