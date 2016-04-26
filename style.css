@@ -2,13 +2,13 @@
  * Theme Name: 	Covies
  * Theme URI: 	http://github.com/jekkilekki/child-covies
  * Description: Child of the Activello Theme
- * Author: 		Aaron Snowberger
+ * Author: 	Aaron Snowberger
  * Author URI: 	http://www.aaronsnowberger.com
  * Template: 	activello
  * Version: 	1.0.0
  * License: 	GNU v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Tags:		two-columns, right-sidebar, responsive-layout
+ * Tags:	two-columns, right-sidebar, responsive-layout
  * Text Domain: covies
  */
 
@@ -29,6 +29,8 @@
 .navbar-brand {
 	font-size: 48px;
 	color: steelblue;
+	font-weight: bold;
+	margin-top: 0.5em;
 }
 .tagline {
 	font-size: 20px;
@@ -86,7 +88,10 @@ article.post .post-categories a:hover,
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:hover, 
+.dropdown-menu>.active>a:focus {
 	background: steelblue;
 }
 
@@ -122,6 +127,9 @@ h6, .h6 {
 }
 
 /* Logo */
+#line {
+	border-color: #b5cde1;
+}
 #logo hgroup {
 /*	margin-bottom: 1em;*/
 	width: 80%;
@@ -130,6 +138,9 @@ h6, .h6 {
 .logo-icon {
 	float: left;
 	width: 20%;
+}
+.logo-icon img {
+	width: 200px;
 }
 
 #social li a span {
