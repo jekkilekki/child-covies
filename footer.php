@@ -19,7 +19,7 @@
 				<div class="row">
 					<?php if( !get_theme_mod('footer_social') ) activello_social_icons(); ?>
 					<div class="copyright contact col-md-12">
-						<?php echo esc_html( get_theme_mod( 'activello_footer_copyright', 'Activello' ) ); ?>
+						<?php echo wp_kses_post( get_theme_mod( 'activello_footer_copyright', 'Activello' ) ); ?>
 					</div>
 					<div class="copyright col-md-12">
 						<?php covies_footer_info(); ?>
