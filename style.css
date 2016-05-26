@@ -5,7 +5,7 @@
  * Author: 	Aaron Snowberger
  * Author URI: 	http://www.aaronsnowberger.com
  * Template: 	activello
- * Version: 	1.0.0
+ * Version: 	1.0.1
  * License: 	GNU v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Tags:	two-columns, right-sidebar, responsive-layout
@@ -32,6 +32,13 @@
 	font-weight: bold;
 	margin-top: 0.5em;
 }
+.navbar-toggle:after {
+	content: "Menu";
+	font-size: 10px;
+	color: #999;
+	margin-top: 5px;
+	margin-left: -5px;
+}
 .tagline {
 	font-size: 20px;
 	font-family: "Lora", serif;
@@ -40,6 +47,11 @@
 .widget h2 {
 	/*font-family: "Lora", serif;*/
 	color: steelblue;
+}
+
+/* Disable Jetpack Carousel meta info */
+.jp-carousel-left-column-wrapper, .jp-carousel-image-meta {
+	display: none;
 }
 
 body {
